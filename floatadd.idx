@@ -1,0 +1,13 @@
+	integer,scr,3
+	integer,n,0
+	integer,zero,0
+	integer,y,18
+	integer,stp,1
+	float,f,0.01
+	screen,scr
+	for,n,zero,y,stp
+		locate,stp,n,zero
+		printnumber,f
+		add,f,f,f
+	next
+	wait,n
