@@ -1,0 +1,8 @@
+	const,0
+	const,1
+	const,8
+	integer,n,0
+	for,n,0,8,1
+		printnumber,n
+		echo,
+	next
